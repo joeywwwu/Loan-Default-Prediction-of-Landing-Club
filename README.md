@@ -9,13 +9,13 @@ I used accuracy score, false positive rate, and AUC score to evaluate the perfor
 
 ## Methods:
 ### 1. Data Collection
-We gathered data from multiple sources, ensuring a comprehensive dataset for analysis.
+We gathered data from Kaggle, ensuring a comprehensive dataset for analysis.
 
 ### 2. Data Cleaning and Wrangling
-Ensured data was prepped for exploratory analysis and machine learning models. This included handling missing values, normalizing data, and selecting relevant features.
+Ensured data was prepped for exploratory analysis and machine learning model
 
 ### 3. Exploratory Data Analysis (EDA)
-Conducted data visualization of key parameters, performed filtering and representation of data, and mapped relevant records to understand data distributions and relationships.
+Conducted data visualization of key parameters, and performed filtering and representation of data to understand data distributions and relationships.
 
 ### 4. Supervised Machine Learning - Classification
 Performed predictive analysis using classification models. Standardized data were split into train/test sets and fit using several types of classification models. Best parameters were chosen using grid search techniques before assessing model accuracy for the best-fit model from each type.
@@ -24,10 +24,9 @@ Performed predictive analysis using classification models. Standardized data wer
 Implemented cross-validation to ensure model robustness. Evaluated model performance using metrics such as accuracy, recall, precision, and ROC-AUC scores.
 
 ## Results
-- Analyzed the geographic distribution and other key characteristics of the dataset.
-- Identified important features contributing to the predictive power of our models.
 - Implemented and evaluated multiple models including Logistic Regression, Random Forest, KNN, and SVM to predict target outcomes.
-- Tuned models using 5-fold cross-validation, achieving high accuracy and robust performance metrics.
+- Tuned models using 5-fold cross-validation, achieving ~91% out-of-sample recall, ~98% test accuracy, and ~96% AUC scores
+
 
 ## Report
 The final report can be found here.
