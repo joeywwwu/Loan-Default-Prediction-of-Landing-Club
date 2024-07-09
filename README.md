@@ -5,8 +5,6 @@ In this project, I analyze the Lending Club data to predict whether the borrower
 
 The main problem I focus on is to decide whether I should lend money to my potential clients. I built Logistic Regression, Random Forest, Neural Network, and SVM models to predict whether a client was "fully paid" or "charged off" the loan in the year of 2018. Since borrowers who default cause the most losses to the lender, if I could identify these borrowers with models, I can reduce the losses to the lender.
 
-I used accuracy score, false positive rate, and AUC score to evaluate the performance of models. I stated the hypothesis that the best model to predict loan status of fully paid and charged off is the Random Forest model, since random forest can reduce error, lessen the impact of outliers, and avoid overfitting.
-
 ## Methods:
 ### 1. Data Collection
 We gathered data from Kaggle, ensuring a comprehensive dataset for analysis.
@@ -29,7 +27,7 @@ Implemented cross-validation to ensure model robustness. Evaluated model perform
 
 
 ## Report
-The final report can be found here.
+The final report can be found [here](https://github.com/joeywwwu/Loan-Default-Prediction-of-Landing-Club/blob/main/results/Final%20Report.pdf).
 
 ## Repository Structure
 - `notebooks/`: Includes Jupyter notebooks with detailed analysis and modeling steps.
